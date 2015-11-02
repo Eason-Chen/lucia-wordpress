@@ -1,0 +1,548 @@
+@import "css/reset.css";
+@import "css/basic.css";
+@charset "UTF-8";
+/*
+Them Name: Lucia Wordpress Theme
+Author: 3A - Eason
+Version: 1.0
+ */
+
+/* header and footer start */
+header,footer{
+	width: 100%;
+	background: #0B0B0B;
+	min-width: 900px;
+	font-family: Arial;
+}
+footer{
+	background-color: transparent;
+}
+/* header and footer end */
+
+/* header start */
+header .logo{
+	float: left;
+	width: 110px;
+	height: 140px;
+	background: url(imgs/Lucia-logo.png);
+	cursor: pointer;
+}
+.search{
+	position: relative;
+}
+.search .searchform{
+	position: absolute;
+	top: 10px;
+	right: 0;
+}
+.searchform #searchsubmit{
+	background: transparent;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	padding: 5px;
+	outline: none;
+}
+.searchform #s{
+	background: #CCCCCC;
+	outline: none;
+	color: #000;
+	border: 1px solid #0B0B0B;
+	padding: 5px;
+}
+.searchRes{
+	margin-bottom: 30px;
+}
+nav ul{
+	float: right;
+	list-style: none;
+	padding: 0;
+	margin-top: 70px;
+}
+nav ul li{
+	float: left;
+	padding: 10px 20px;
+	border-right: 2px solid #161616;
+}
+nav ul li a{
+	text-transform: uppercase;
+}
+nav ul li:last-of-type{
+	border-right: none;
+	padding-right: 0;
+}
+/* header end */
+
+/* footer start */
+.copy{
+	text-align: center;
+	font-size: 14px;
+	padding: 15px 0;
+}
+.copy a:hover{
+	padding-bottom: 0;
+	border-bottom: none;
+	color: #AB7E01;
+}
+/* footer end */
+
+/* home content start */
+.grape, .region{
+	width: 402px;
+	height: 402px;
+	margin: 100px 0;
+	font-family: Arial;
+}
+.grape{
+	background: url(imgs/home_grape.png) center no-repeat;
+}
+.region{
+	background: url(imgs/home_region.png) center no-repeat;
+}
+.grape em, .region em{
+	font-style: normal;
+	border: 1px solid #fff;
+	padding: 20px 30px;
+}
+.grape em:hover, .region em:hover{
+	border-color: #AB7E01;
+}
+.grape a:hover, .region a:hover{
+	padding-bottom: 0;
+	border-bottom: none;
+	color: #AB7E01;
+}
+/* home content end */
+
+/* global margin set */
+.mar{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+/* global margin end */
+
+/* about, grape, region contenet start */
+address, .team,
+.grape_intro, .grape_sort{
+	min-height: 400px;
+	padding: 15px;
+	background: #141414;
+}
+address, .grape_intro{
+	width: 320px;
+}
+.team, .grape_sort{
+	width: 630px;
+}
+.team article{
+	margin-bottom: 20px;
+}
+.team article:last-of-type{
+	margin-bottom: 0;
+}
+.about_img{
+	float: left;
+	width: 150px;
+	margin-right: 15px;
+	border: 5px solid #fff;
+}
+.about_content{
+	float: left;
+	width: 435px;
+}
+.about_content img{
+	margin-right: 10px;
+}
+.about_content table td{
+	vertical-align: top;
+	text-align: justify;
+}
+.grape_intro, .grape_sort{
+	height: 600px;
+}
+.grapes{
+	float: left;
+	width: 600px;
+	margin-bottom: 15px;
+}
+.grapes_img{
+	float: left;
+	width: 200px;
+	height: 145px;
+	margin-right: 20px;
+}
+.grapes_des{
+	float: left;
+	width: 380px;
+	height: 145px;
+	overflow: hidden;
+}
+.grapes_des h3{
+	margin-bottom: 10px;
+}
+.grapes_des h3 a:hover{
+	padding-bottom: 0;
+  	border-bottom: 0;
+}
+.grapes_des p{
+	margin: 0;
+}
+/* about, grape, region content end*/
+
+/* single page start */
+.singleGrape_des{
+	float: left;
+	padding: 15px;
+	background: #141414;
+	width: 370px;
+	height: 410px;
+}
+.singleGrape_img{
+	float: right;
+	border: 5px solid #141414;
+	width: 580px;
+	height: 410px;
+}
+.product{
+	margin-right: -25px;
+}
+.wines{
+	float: left;
+	width: 310px;
+	height: 400px;
+	margin-right: 25px;
+	margin-bottom: 65px;
+	background: #141414;
+}
+.wines .wines_img{
+	float: left;
+	width: 310px;
+	height: 200px;
+	padding: 5px;
+}
+.wines .wines_des{
+	float: left;
+	width: 310px;
+	height: 150px;
+	padding: 15px;
+}
+.wines .wines_des p{
+	margin: 0;
+}
+.wines .more{
+	float: left;
+	text-align: center;
+	display: inline-block;
+	padding: 10px 20px;
+	background: #AB7E01;
+	margin-top: 30px;
+	margin-left: 103px;
+	cursor: pointer;
+	color: #fff;
+}
+.wines .more:hover{
+  	border-bottom: none;
+}
+/* single page end */
+
+/* single wine page start*/
+.grape_intro{
+	float: left;
+	padding: 15px;
+	background: #141414;
+	width: 270px;
+	height: 410px;
+}
+.wine{
+	float: right;
+	width: 680px;
+}
+.wine_img{
+	float: right;
+	border: 5px solid #141414;
+	width: 680px;
+	height: 410px;
+}
+.wine .img_atr,
+.wine .wine_atr{
+	float: left;
+	margin-top: 20px;
+	width: 680px;
+}
+.wine .img_atr .imgs_atr{
+	float: left;
+	width: 220px;
+	height: 125px;
+	margin-right: 10px;
+}
+.wine .img_atr .imgs_atr:last-of-type{
+	margin-right: 0;
+}
+.wine .wine_atr{
+	margin-top: 70px;
+}
+.wine .wine_atr .wines_atr,
+.wine .wine_atr_value .wines_atr_value{
+	float: left;
+	width: 220px;
+	margin-right: 10px;
+}
+.wine .wine_atr_value .wines_atr_value{
+	color: #82001A;
+}
+.wine .wine_atr .wines_atr:last-of-type,
+.wine .wine_atr_value .wines_atr_value:last-of-type{
+	margin-right: 0;
+}
+.wine .other .others{
+	float: left;
+	width: 170px;
+}
+strong{
+	margin: 0 195px 20px 195px;
+	text-align: center;
+	line-height: 36px;
+	font-weight: bold;
+	width: 290px;
+	height: 36px;
+	display: inline-block;
+	background: url(imgs/red-banner.png) no-repeat center;
+}
+/* single wine page end */
+
+/* wines grape images start */
+.chardonnay{
+	background: url(imgs/wine/chardonnay.jpg) no-repeat center;
+}
+.chardonnay:hover{
+	background: url(imgs/wine/chardonnay-c.jpg) no-repeat center;
+}
+.gewurztraminer{
+	background: url(imgs/wine/gewurztraminer.jpg) no-repeat center;
+}
+.gewurztraminer:hover{
+	background: url(imgs/wine/gewurztraminer-c.jpg) no-repeat center;
+}
+.malbec{
+	background: url(imgs/wine/malbec.jpg) no-repeat center;
+}
+.malbec{
+	background: url(imgs/wine/malbec-c.jpg) no-repeat center;
+}
+.merlot{
+	background: url(imgs/wine/merlot.jpg) no-repeat center;
+}
+.merlot{
+	background: url(imgs/wine/merlot-c.jpg) no-repeat center;
+}
+.gris{
+	background: url(imgs/wine/gris.jpg) no-repeat center;
+}
+.gris{
+	background: url(imgs/wine/gris-c.jpg) no-repeat center;
+}
+.noir{
+	background: url(imgs/wine/noir.jpg) no-repeat center;
+}
+.noir{
+	background: url(imgs/wine/noir-c.jpg) no-repeat center;
+}
+.red{
+	background: url(imgs/wine/red.jpg) no-repeat center;
+}
+.red{
+	background: url(imgs/wine/red-c.jpg) no-repeat center;
+}
+.riesling{
+	background: url(imgs/wine/riesling.jpg) no-repeat center;
+}
+.riesling{
+	background: url(imgs/wine/riesling-c.jpg) no-repeat center;
+}
+.sauvignon{
+	background: url(imgs/wine/sauvignon.jpg) no-repeat center;
+}
+.sauvignon{
+	background: url(imgs/wine/sauvignon-c.jpg) no-repeat center;
+}
+.syrah{
+	background: url(imgs/wine/syrah.jpg) no-repeat center;
+}
+.syrah{
+	background: url(imgs/wine/syrah-c.jpg) no-repeat center;
+}
+/* wines grape imgaes end */
+
+/* wines area images start */
+.auckland{
+	background: url(imgs/wine/auckland.jpg) no-repeat center;
+}
+.auckland:hover{
+	background: url(imgs/wine/auckland-c.jpg) no-repeat center;
+}
+.hawkes{
+	background: url(imgs/wine/hawkes.jpg) no-repeat center;
+}
+.hawkes:hover{
+	background: url(imgs/wine/hawkes-c.jpg) no-repeat center;
+}
+.plenty{
+	background: url(imgs/wine/plenty.jpg) no-repeat center;
+}
+.plenty:hover{
+	background: url(imgs/wine/plenty-c.jpg) no-repeat center;
+}
+.canterbury{
+	background: url(imgs/wine/canterbury.jpg) no-repeat center;
+}
+.canterbury:hover{
+	background: url(imgs/wine/canterbury-c.jpg) no-repeat center;
+}
+.otago{
+	background: url(imgs/wine/otago.jpg) no-repeat center;
+}
+.otago:hover{
+	background: url(imgs/wine/otago-c.jpg) no-repeat center;
+}
+.eastcoast{
+	background: url(imgs/wine/eastcoast.jpg) no-repeat center;
+}
+.eastcoast:hover{
+	background: url(imgs/wine/eastcoast-c.jpg) no-repeat center;
+}
+.marlborough{
+	background: url(imgs/wine/marlborough.jpg) no-repeat center;
+}
+.marlborough:hover{
+	background: url(imgs/wine/marlborough-c.jpg) no-repeat center;
+}
+.nelson{
+	background: url(imgs/wine/nelson.jpg) no-repeat center;
+}
+.nelson:hover{
+	background: url(imgs/wine/nelson-c.jpg) no-repeat center;
+}
+.northland{
+	background: url(imgs/wine/northland.jpg) no-repeat center;
+}
+.northland:hover{
+	background: url(imgs/wine/northland-c.jpg) no-repeat center;
+}
+.wellington{
+	background: url(imgs/wine/wellington.jpg) no-repeat center;
+}
+.wellington:hover{
+	background: url(imgs/wine/wellington-c.jpg) no-repeat center;
+}
+/* wines area images end */
+
+/* wines color images start */
+.golden{
+	background: url(imgs/wine/golden.jpg) no-repeat center;
+}
+.golden:hover{
+	background: url(imgs/wine/golden-c.jpg) no-repeat center;
+}
+.crimson{
+	background: url(imgs/wine/crimson.jpg) no-repeat center;
+}
+.crimson:hover{
+	background: url(imgs/wine/crimson-c.jpg) no-repeat center;
+}
+.pink{
+	background: url(imgs/wine/pink.jpg) no-repeat center;
+}
+.pink:hover{
+	background: url(imgs/wine/pink-c.jpg) no-repeat center;
+}
+.white{
+	background: url(imgs/wine/white.jpg) no-repeat center;
+}
+.white:hover{
+	background: url(imgs/wine/white-c.jpg) no-repeat center;
+}
+.orange{
+	background: url(imgs/wine/orange.jpg) no-repeat center;
+}
+.orange:hover{
+	background: url(imgs/wine/orange-c.jpg) no-repeat center;
+}
+.plainer{
+	background: url(imgs/wine/plainer.jpg) no-repeat center;
+}
+.plainer:hover{
+	background: url(imgs/wine/plainer-c.jpg) no-repeat center;
+}
+.peach{
+	background: url(imgs/wine/peach.jpg) no-repeat center;
+}
+.peach:hover{
+	background: url(imgs/wine/peach-c.jpg) no-repeat center;
+}
+.purple{
+	background: url(imgs/wine/purple.jpg) no-repeat center;
+}
+.purple:hover{
+	background: url(imgs/wine/purple-c.jpg) no-repeat center;
+}
+.brown{
+	background: url(imgs/wine/brown.jpg) no-repeat center;
+}
+.brown:hover{
+	background: url(imgs/wine/brown-c.jpg) no-repeat center;
+}
+/* wines color images end */
+
+.contact{
+	width: 500px;
+	background: #141414;
+	padding: 20px;
+}
+/* contact form style start */
+#ninja_forms_form_1_cont label{
+	font-weight: normal;
+}
+#ninja_forms_form_1_cont input,
+#ninja_forms_form_1_cont textarea,
+#ninja_forms_form_1_cont option,
+#ninja_forms_form_1_cont select{
+	background: #CCCCCC;
+	color: #000;
+	outline: none;
+	border: 1px solid #141414;
+	padding: 5px;
+	font-weight: normal;
+}
+#ninja_forms_form_1_cont input,
+#ninja_forms_form_1_cont option,
+#ninja_forms_form_1_cont select{
+	background: #CCCCCC;
+	color: #000;
+	outline: none;
+	border: 1px solid #141414;
+	padding: 5px;
+	height: 35px;
+}
+#ninja_forms_form_1_cont textarea{
+	resize: none;
+}
+#ninja_forms_field_10_div_wrap,
+#ninja_forms_field_11_div_wrap,
+#ninja_forms_field_12_div_wrap,
+#ninja_forms_field_16_div_wrap{
+	float: left;
+	width: 400px;
+}
+#ninja_forms_field_13_div_wrap,
+#ninja_forms_field_14_div_wrap,
+#ninja_forms_field_15_div_wrap,
+#ninja_forms_field_17_div_wrap{
+	float: right;
+	width: 50px;
+}
+#ninja_forms_form_1_cont .submit{
+	background: transparent;
+	border: 1px solid #CCCCCC;
+	border-radius: 5px;
+	color: #fff;
+}
+/* contact form style end */
